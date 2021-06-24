@@ -197,9 +197,13 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  min-width: 528px;
+  min-height: 581px;
   padding: 8px 8px;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 /*Hero*/
 /*Features*/
